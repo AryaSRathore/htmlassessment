@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #E6E6FA;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+}
+body{
+    background-color: white;
+    background: linear-gradient(to left top, blue, red) fixed;
+}
+.container
+{
+    margin-top:50px;
+    margin-left: 180px;
+    height: 60px;
+    display:flex;
+}
+.left-corner-logo
+{
+    float:left;
+    width:30%;
+    font-size:40px;
+    font-weight: bold;
+}
+ .why, .how{
+     font-weight: bold;
+     font-size: 20px;
+     padding: 5px;
+ }
+ .why-para,.how-para{
+    padding: 5px;
+ }
+.menu-bar-corner
+{
+    float:right;
+    margin-right: 0px;
+    width:60%;
+    justify-content: space-between;
+}
+.question-icon, .why-icon{
+    margin-left: 150px;
+    height: 50px;
+    width: 40px;
+}
+a:hover
+{
+    color: red;;
+}
+a{
+    text-decoration: none;
+    color:black;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.heading
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner
+{
+    height:400px;
+    margin-left: 180px;
+    padding-top: 50px;
+}
+.first-half
+{
+    vertical-align: middle;
+    float: left;
+    width: 35%;
+}
+.second-half
+{
+    float: right;
+    width: 40%;
+
+
+}
+.second-half-pic
+{
+    width: 540px;
+    height: 390px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    padding:10px 10px 10px 10px;
+    width: 200px;
+}
+.item-headers
+{
+    padding-top: 30px;
+    margin-left: 240px;
+}
+.items
+{
+    margin-left: 240px;
+    display: flex;
+    padding-top: 2px;
+}
+.icons
+{
+    height: 50px;
+    width: 50px;
+    margin: 70px;
+    object-fit:fill;
+}
+.item-header-content
+{
+    font-weight: bold;
+    text-align: left;
+}
+.end-of-page
+{
+    margin-left: 240px;
+    height:300px;
+}
+.why-box
+{
+    float: left;
+    height:190px;
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    border:1px solid lightgray;
+}
+.how-box
+{
+    float: left;
+    height:190px;
+    width: 300px;
+    margin-left: 28px;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    border:1px solid lightgray;
+}
